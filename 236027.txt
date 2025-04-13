@@ -1,0 +1,25 @@
+4. mkdir SI_2025_lab1_236027
+cd SI_2025_LAB1_236027
+git init
+5.  git remote add origin https://github.com/dragana344/SI_2025_lab1_236027.git
+6. git add README.md
+	git commit -m "Initial commit"
+7. git add SI2025Lab1Main.java
+	git commit -m "Add starter code
+8. git push origin master
+13. git fetch origin
+14. git checkout 1-remove-a-task-by-name
+	git add SI2025Lab1Main.java
+	git commit -m "implement removeTask"
+	git push origin 1-remove-a-task-by-name
+	git checkout  3-list-tasks-sorted-by-name
+	git add SI2025Lab1Main.java
+	git commit -m "implement `sortTasksByName"
+	git push origin  3-list-tasks-sorted-by-name
+	git checkout  8-mark-a-task-as-completed-by-name
+	git add SI2025Lab1Main.java
+	git commit -m "implement marTaskCompleted"
+	git push origin  8-mark-a-task-as-completed-by-name
+22. git checkout master
+	git pull origin master
+23. git push origin master
